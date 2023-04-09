@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<!--Meta-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap5</title>
+		<!--CSS Links-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+
+	 <!-- form validation-->
+<div class="container">
+	<form>
+		<div class="col-md-6">
+    		<label for="full_name" class="form-label">Full Name</label>
+    		<input type="email" class="form-control full_name" id="full_name" name="full_name" placeholder="Enter Your Full Name" required>
+    		<div class="valid-tooltip">Looks Good</div>
+    		<div class="invalid-tooltip">Enter Your Full Name</div>
+   		</div>
+
+		<div class="col-md-6">
+    		<label for="email1" class="form-label">Email address</label>
+    		<input type="email" class="form-control email1" id="email1" name="email1" placeholder="Enter Your Email Address" required>
+    		<div class="valid-tooltip">Looks Good</div>
+    		<div class="invalid-tooltip">Enter Your Email Address</div>
+   		</div>
+
+  		<div class="col-md-6">
+    		<label for="password1" class="form-label">Password</label>
+    		<input type="password" class="form-control password1" id="password1" name="password1" placeholder="Enter Your Password" required>
+  		</div>
+    		<div class="valid-tooltip">Looks Good</div>
+    		<div class="invalid-tooltip">Enter Your Password</div>
+
+  		<div class="col-md-6">
+  			<label for="file" class="form-label">Seletc your file please</label>
+  			<input class="form-control file" type="file" id="file" name="file"> 
+		</div>
+
+  		<div class="col-md-6">
+  			<label for="textarea1" class="form-label textarea1">Remarks</label>
+ 			 <textarea class="form-control" id="textarea1" name="textarea1" placeholder="Please describe your remarks" rows="3"></textarea>
+		</div>
+
+  		<div class="col-md-6 form-check">
+    		<input type="checkbox" class="form-check-input check1" id="check1" name="check1" required>
+    		<label class="form-check-label" for="check1">Check me out</label>
+  		</div>
+
+  		<button type="submit" class="btn btn-primary">Submit</button>
+
+	</form>
+</div>
+
+ 
+
+		<!--JS Links-->
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
